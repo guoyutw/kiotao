@@ -1,0 +1,35 @@
+name: "Offer — Share AI work"
+description: "Show what you did with AI and how others may learn or collaborate"
+labels: ["offer"]
+body:
+  - type: markdown
+    attributes:
+      value: "This will be public. Share only work and details you are authorized to disclose."
+  - type: input
+    id: work
+    attributes:
+      label: "What did you actually do with AI?"
+      placeholder: "I used AI to make a reusable workflow for..."
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: "Evidence or example (optional)"
+      description: "A public link, demo, or clearly labeled personal account. No private records."
+    validations:
+      required: false
+  - type: textarea
+    id: invitation
+    attributes:
+      label: "What are you open to?"
+      placeholder: "Questions, teaching, paid help, feedback, collaboration..."
+    validations:
+      required: true
+  - type: input
+    id: terms
+    attributes:
+      label: "Terms (optional)"
+      placeholder: "Free / paid (discuss first) / price range and currency"
+    validations:
+      required: false
