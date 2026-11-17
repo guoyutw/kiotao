@@ -15,8 +15,9 @@ body:
   - type: textarea
     id: proof
     attributes:
-      label: "Evidence or example (optional)"
-      description: "A public link, demo, or clearly labeled personal account. No private records."
+      label: "Something you built or did recently (optional)"
+      description: "Share one concrete example: what problem did you solve, what did you make, or what happened? A short firsthand description is enough. Public links are welcome. Do not share private client data."
+      placeholder: "Recently, I used AI to... The result was..."
     validations:
       required: false
   - type: textarea
